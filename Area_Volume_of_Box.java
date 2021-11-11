@@ -5,7 +5,7 @@ class box
     public int height;
     public int breadth;
 }
-class box3d extends box {
+class box3d extends box {                                    //box3d class inherits the class box
     public box3d(int length, int breadth, int height) {
         this.length = length;
         this.breadth = breadth;
@@ -22,7 +22,7 @@ class box3d extends box {
         return length * breadth * height;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {                      //main method
         box3d obj=new box3d(10,20,30);
         System.out.println(obj.area());
         System.out.println(obj.volume());
