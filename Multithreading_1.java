@@ -13,7 +13,6 @@ class Thread2 implements Runnable{
                 } else {
                     flag++;
                 }
-
             }
         }
     }
@@ -23,8 +22,5 @@ class Tmain1{
     public static void main(String[] args) {
         Thread obj=new Thread(new Thread2());
         obj.start();
-
-
-
     }
 }
