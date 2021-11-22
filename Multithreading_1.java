@@ -6,7 +6,7 @@ class Thread2 implements Runnable{
         Random random=new Random(5);
         int flag=0;
         while(flag!=1) {
-            int i1 = random.nextInt();
+            int i1 = random.nextInt(5);
             if (i1 >= 0 && i1 <= 5) {
                 if (!colors[i1].equals("red")) {
                     System.out.println(colors[i1]);
