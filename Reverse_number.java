@@ -6,7 +6,7 @@ Sample input                      Sample output
 2300
 
 
-import java.util.*;
+import java.util.Scanner;
 class Reverse
 {
 	public static void main (String[] args)
